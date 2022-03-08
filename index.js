@@ -53,8 +53,10 @@ function preserveDecimal(n) {
     parseFloat(n)
 }
 
+//For the 14 and 15 tests
 function preserveDecimal(n) {
-      parseFloat(n)
+     const nums =  parseFloat(n)
+      return nums
 }
 
 
